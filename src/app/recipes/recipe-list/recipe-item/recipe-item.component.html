@@ -1,0 +1,16 @@
+<a href="#" class="list-group-item clearfix" (click)="onSelected()">
+  <div class="card dark">
+    <img
+      [src]="recipe.imagePath"
+      class="card-img-top"
+      alt="{{ recipe.name }}"
+    />
+    <div class="card-body">
+      <div class="text-section">
+        <h5 class="card-title fw-bold">{{ recipe.name }}</h5>
+        <p class="card-text">{{ recipe.description }}</p>
+      </div>
+      <div class="cta-section"></div>
+    </div>
+  </div>
+</a>
